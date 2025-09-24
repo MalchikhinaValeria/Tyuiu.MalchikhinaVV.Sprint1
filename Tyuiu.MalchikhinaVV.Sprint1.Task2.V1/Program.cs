@@ -33,7 +33,7 @@ namespace Tyuiu.MalchikhinaVV.Sprint1.Task2.V1
 
             Console.WriteLine("Введите расстояние в километрах: ");
             
-            int x = Convert.ToInt32(Console.ReadLine());
+            int x = int.Parse(Console.ReadLine());
 
 
 
