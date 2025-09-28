@@ -13,8 +13,8 @@ namespace Tyuiu.MalchikhinaVV.Sprint1.Task4.V26.Test
            DataService ds = new DataService();
 
             double x = 1;
-            double y = 2;
-            double wait = 0.139;
+            double y = 1;
+            double wait = -0.062;
 
             var res = ds.Calculate(x, y);
             Assert.AreEqual(wait, res);

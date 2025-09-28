@@ -11,8 +11,8 @@ namespace Tyuiu.MalchikhinaVV.Sprint1.Task4.V26.Lib
     {
         public double Calculate(double x, double y)
         {
-            double res = (Math.Atan(x) + y) / (Math.Pow(Math.E,(y+x)));
-            return Math.Round(res,3);
+            double result = (Math.Atan(x) - y) / (Math.Exp(x) * (4 / Math.PI));
+            return Math.Round(result,3);
         }
     }
 }
