@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Tyuiu.MalchikhinaVV.Sprint1.Task5.V4.Lib;
+using Tyuiu.MalchikhinaVV.Sprint1.Task6.V5.Lib;
 
-namespace Tyuiu.MalchikhinaVV.Sprint1.Task5.V4
+namespace Tyuiu.MalchikhinaVV.Sprint1.Task6.V5
 {
     class Program
     {
@@ -18,9 +18,9 @@ namespace Tyuiu.MalchikhinaVV.Sprint1.Task5.V4
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
-            Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #4                                                             *");
+            Console.WriteLine("* Тема: Работа со строками класс String                                   *");
+            Console.WriteLine("* Задание #6                                                              *");
+            Console.WriteLine("* Вариант #5                                                              *");
             Console.WriteLine("* Выполнил: Мальчихина Валерия Викторовна | ИИПб-25-1                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -31,15 +31,14 @@ namespace Tyuiu.MalchikhinaVV.Sprint1.Task5.V4
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Введите строку: ");
-            int k = Convert.ToInt32(Console.ReadLine());
-
+            Console.WriteLine("Введите текст: ");
+            string str = Console.ReadLine();
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine($"Если идет {k} секунда суток, значит прошло {ds.SecondsToHours(k)} полных часов.");
+            Console.WriteLine(ds.CheckSymmetricalWords(str));
 
 
             Console.ReadLine();
